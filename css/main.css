@@ -1,0 +1,76 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: teal;
+}
+
+header {
+    background-color: #ffffff;
+    background-image: url("../images/bg-hills.jpg");
+    background-size: cover;
+}
+
+#about {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+#education {
+    font-size: 13px;
+    color: #000000;
+    background-color: #e0f1eb ;
+}
+
+#education .education-left-border {
+    border-left: 8px solid #6c62ff;
+    border-radius: 10px;
+}
+
+#experience {
+    font-size: 13px;
+    color: #000000;
+    background-color: #c9e1db ;
+}
+
+#experience .work-right-border {
+    border-right: 8px solid #02bfa7;
+    border-radius: 10px;
+}
+
+#portfolio {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+#portfolio .portfolio-left-bottom-border {
+    border-left: 3px solid #6c62ff;
+    border-bottom: 3px solid #02bfa7;
+    border-radius: 10px;
+}
+
+#portfolio .portfolio-top-bottom-border {
+    border-top: 3px solid #6c62ff;
+    border-bottom: 3px solid #02bfa7;
+    border-radius: 10px;
+}
+
+#portfolio .portfolio-top-right-border {
+    border-top: 3px solid #6c62ff;
+    border-right: 3px solid #02bfa7;
+    border-radius: 10px;
+}
+
+#contact {
+    color: #000000;
+    background-color: #e0f1eb;
+}
+
+footer {
+    color: #ffffff;
+    background-color: #c9e1db;
+}
